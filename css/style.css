@@ -1,0 +1,83 @@
+/* Establece la fuente general de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Usa la fuente Arial como principal, con sans-serif como alternativa */
+    background-color: #f3dbbc;
+    /* Color de fondo claro para el cuerpo */
+    color: #333;
+    /* Color del texto en un tono gris oscuro */
+    margin: 0;
+    /* Elimina los márgenes predeterminados del navegador */
+    padding: 0;
+    /* Elimina el padding predeterminado del navegador */
+    display: flex;
+    /* Utiliza Flexbox para el diseño */
+    justify-content: center;
+    /* Centra los elementos hijos horizontalmente */
+    align-items: center;
+    /* Centra los elementos hijos verticalmente */
+    height: 100vh;
+    /* Ocupa el 100% de la altura de la ventana del navegador */
+}
+
+/* Estilo del contenedor principal del cine */
+.cine-container {
+    background-color: #fdf0df;
+    /* Color de fondo claro para el contenedor */
+    padding: 20px;
+    /* Espacio interno alrededor del contenido */
+    border-radius: 10px;
+    /* Bordes redondeados del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra suave alrededor del contenedor para darle profundidad */
+    max-width: 500px;
+    /* Ancho máximo del contenedor */
+    text-align: center;
+    /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #e67300;
+    /* Color naranja para el texto del encabezado */
+}
+
+/* Estilo para los botones dentro de la clase "botones-genero" */
+.botones-genero button {
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro para los botones */
+    border: 1px solid #ccc;
+    /* Borde gris claro para los botones */
+    padding: 10px 15px;
+    /* Espacio interno alrededor del texto del botón */
+    margin: 10px 5px;
+    /* Espacio externo entre los botones */
+    cursor: pointer;
+    /* Cambia el cursor a una mano al pasar sobre el botón */
+    border-radius: 5px;
+    /* Bordes ligeramente redondeados para los botones */
+}
+
+/* Efecto de hover para los botones */
+.botones-genero button:hover {
+    background-color: #e6e6e6;
+    /* Cambia el color de fondo a gris más oscuro al pasar el ratón */
+}
+
+/* Estilo para el párrafo de recomendaciones */
+#recomendacion {
+    margin-top: 20px;
+    /* Espacio superior para separar de elementos anteriores */
+    font-weight: bold;
+    /* Hace que el texto sea negrita */
+}
+
+/* Estilo para el texto de la película recomendada */
+#pelicula-recomendada {
+    font-style: italic;
+    /* Aplica estilo cursivo al texto */
+    font-size: 1.2em;
+    /* Aumenta el tamaño de la fuente */
+    color: #333;
+    /* Color del texto en gris oscuro */
+}

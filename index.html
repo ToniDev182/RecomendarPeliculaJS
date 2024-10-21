@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Cine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="cine-container">
+
+        <h1>¡Bienvenidos al cine!</h1>
+        <br>
+        <h4>--- Menú ---</h4>
+        <br>
+        <p>Queremos hacer de tu vista, una expreriencia más placentera</p>
+        <br>
+        <p>Para eso, ingresa tu edad y seleciona el genero que más te guste, y te recomendamos tu pelicual ideal</p>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="1" max="99">
+        <br><br>
+        <div class="botones">
+            <button onclick="Recomendar('Drama')">Drama</button>
+            <button onclick="Recomendar('Comedia')">Comedia</button>
+            <button onclick="Recomendar('Musical')">Musica</button>
+            <button onclick="Recomendar('Crimen')">Crimen</button>
+
+            <p>Nuestra recomendacion: </p>
+            <p id="recomendacion"></p>
+        </div>
+
+
+    </div>
+    <script src="Js/Js.js"></script>
+
+</body>
+
+</html>
